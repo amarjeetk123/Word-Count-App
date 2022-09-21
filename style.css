@@ -5,7 +5,7 @@
 }
 body{
     width: 100%;
-    height: 90vh;
+    height: 97vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,6 +60,12 @@ input{
      border: none;
      cursor: pointer;
      font-size: 15px;
+}
+#check_btn:hover ,#reset_btn:hover {
+    background-color: #000000;
+    color : #ffffff ;
+    transition: 0.4s linear;
+    transform: scale(.95);
 }
 #reset_btn{
     padding: 10px 10px;
